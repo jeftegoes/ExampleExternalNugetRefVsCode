@@ -27,7 +27,7 @@ namespace ProjetoExternalNugetRefVsCode.Controllers
             // Transform result and return to client.
             using (MemoryStream ms = new MemoryStream())
             {
-                report.Export(export, ms);1
+                report.Export(export, ms);
                 ms.Flush();
                 return File(ms.ToArray(), "application/pdf", Path.GetFileNameWithoutExtension("Test") + ".pdf");
             }
