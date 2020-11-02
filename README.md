@@ -8,12 +8,12 @@ Nesse exemplo mostro como adicionar o referência do FastReport .NET versão pag
 
 ## 1º Caminho
 
-1 - Baixar o nuget cli
+1 - Baixar o nuget cli.
 https://www.nuget.org/downloads
 
-2 - Adicionar em variáveis de ambiente
+2 - Adicionar em variáveis de ambiente.
 
-3 - Fonte de pesquisa do dotnet com o nuget
+3 - Fonte de pesquisa do dotnet com o nuget.
 dotnet nuget list source
 
 4 - Lista os pacotes que estão dentro da pasta.
@@ -26,15 +26,15 @@ nuget install FastReport.Core -source 'C:\Program Files (x86)\FastReports\FastRe
 
 ## 2º Caminho
 
-1 - Adiciona ao dotnet o source do FastReport
+1 - Adiciona ao dotnet o source do FastReport.
 dotnet nuget add source 'C:\Program Files (x86)\FastReports\FastReport.Net\Nugets' -n FastReport
 
-Ambos os caminhos
+## Ambos os caminhos
 
-3 - Adicionar o pacote já mapeado no projeto.
+1 - Adicionar o pacote já mapeado no projeto.
 dotnet add package FastReport.Core
 
-Comandos extras
+## Comandos extras
 
-4 - Remove o source do dotnet nuget
+4 - Remove o source do dotnet nuget.
 dotnet nuget remove source FastReport.NET
